@@ -1,0 +1,231 @@
+/ * W3.CSS 4.10 de fevereiro de 2018 por Jan Egil e Borge Refsnes * /
+html {box-sizing: border-box} *, *: antes, *: depois de {box-sizing: inherit}
+/ * Extrair de normalize.css por Nicolas Gallagher e Jonathan Neal git.io/normalize * /
+html {-ms-text-size-ajuste: 100%; - webkit-text-size-adjust: 100%} corpo {margem: 0}
+artigo, além, detalhes, figcaption, figura, rodapé, cabeçalho, principal, menu, navegação, seção, resumo {display: block}
+áudio, tela, progresso, vídeo {display: inline-block} progresso {vertical-align: baseline}
+áudio: não ([controles]) {display: none; height: 0} [oculto], modelo {display: none}
+a {background-color: transparent; -webkit-text-decoration-skip: objetos}
+a: ativo, a: hover {largura do esboço: 0} abbr [title] {borda inferior: nenhuma; text-decoration: sublinhado; text-decoration: sublinhado pontilhado}
+marca dfn {font-style: italic} {background: # ff0; color: # 000}
+pequeno {font-size: 80%} sub, sup {tamanho da fonte: 75%; altura da linha: 0; posição: relativo; alinhamento vertical: linha de base}
+sub {bottom: -0.25em} sup {top: -0.5em} figura {margem: 1em 40px} img {estilo de borda: nenhum} svg: não (: raiz) {estouro: oculto}
+código, kbd, pre, samp {família da fonte: monospace, monospace; tamanho da fonte: 1em} hr {box-sizing: content-box; altura: 0; estouro: visível}
+botão, entrada, selecione, textarea {font: inherit; margem: 0} optgroup {font-weight: bold}
+botão, insira o botão {overflow: visible}, selecione {text-transform: none}
+botão, html [type = button], [type = redefinir], [type = submit] {- webkit-appearance: button}
+botão :: - moz-foco-interno, [tipo = botão] :: - moz-foco-interno, [tipo = redefinir] :: - moz-foco-interno, [tipo = submete] :: - moz-foco inner {border-style: none; preenchimento: 0}
+botão: -moz-focusring, [type = botão]: - moz-focusring, [type = redefinir]: - moz-focusring, [type = enviar]: - moz-focusring {estrutura: 1px pontilhada ButtonText}
+fieldset {borda: 1px sólido # c0c0c0; margem: 0 2px; preenchimento: .35em .625em .75em}
+Legenda {color: inherit; display: tabela; max-width: 100%; preenchimento: 0; espaço em branco: normal} textarea {overflow: auto}
+[type = checkbox], [type = radio] {padding: 0}
+[type = number] :: - webkit-inner-spin-button, [type = número] :: - webkit-outer-spin-button {altura: auto}
+[type = search] {- webkit-appearance: textfield; contorno-offset: -2px}
+[type = search] :: - webkit-search-cancel-button, [type = pesquisa] :: - webkit-search-decoration {-webkit-appearance: nenhum}
+:: - webkit-input-placeholder {cor: herdar; opacidade: 0.54}
+:: - webkit-file-upload-button {-webkit-aparência: botão; fonte: herdar}
+/ * Extrato final * /
+html, corpo {font-family: Verdana, sans-serif; tamanho da fonte: 15px; altura da linha: 1.5} html {overflow-x: hidden}
+h1 {tamanho-da-letra: 36px} h2 {tamanho-da-letra: 30px} h3 {tamanho-da-letra: 24px} tamanho da letra h4 {tamanho-fonte: 20px} h5 {tamanho-da-letra: 18px} h6 {tamanho-da-letra: 16px} .w3 -serif {font-family: serif}
+h1, h2, h3, h4, h5, h6 {font-family: "Segoe UI", Arial, sem serifa; font-weight: 400; margem: 10px 0} .w3-wide {espaçamento entre letras: 4 px}
+hr {border: 0; border-top: 1px sólido #eee; margem: 20px 0}
+.w3-image {max-width: 100%; altura: auto} img {alinhamento vertical: meio} a {cor: herdar}
+.w3-table, .w3-table-all {border-collapse: colapso; espaçamento entre bordas: 0; largura: 100%; exibição: tabela} .w3-table-all {borda: 1px solid #ccc}
+.w3-bordered tr, .w3-table-all tr ​​{borda inferior: 1px sólido #ddd} .w3-tbody listrada tr: n-filho (par) {background-color: # f1f1f1}
+.w3-table-all tr: sétimo filho (ímpar) {cor de fundo: # fff} .w3-table-all tr: sétimo filho (par) {cor de fundo: # f1f1f1}
+.w3-hoverable tbody tr: hover, .w3-ul.w3-hoverable li: hover {cor de fundo: #ccc} .w3 centralizado tr th, .w3-centralizado tr td {text-align: center}
+.w3-table td, .w3-table th, .w3-table-all td, .w3-table-all th {preenchimento: 8px 8px; exibição: table-cell; alinhamento de texto: esquerdo; vertical-align: top }
+.w3-table th: primeiro filho, .w3-table td: primeiro filho, .w3-table-all th: primeiro filho, .w3-table-all td: primeiro filho {padding-left: 16px}
+.w3-btn, .w3-button {limite: nenhum; display: bloco-inline; preenchimento: 8px 16px; alinhamento vertical: meio; estouro: oculto; texto-decoração: nenhum; cor: herdar; cor de fundo: herdar ; alinhamento de texto: centro; cursor: ponteiro; espaço em branco: nowrap}
+.w3-btn: hover {box-shadow: 0 8px 16px 0 rgba (0,0,0,0,2), 0 6px 20px 0 rgba (0,0,0,0,19)}
+.w3-btn, .w3-button {-webkit-touch-callout: nenhum; -webkit-user-select: nenhum; -khtml-user-select: nenhum; -moz-user-select: nenhum; -ms-user -selecione: nenhum; usuário-selecione: nenhum}   
+.w3-disabled, .w3-btn: desativado, .w3-button: desativado {cursor: não-permitido; opacidade: 0.3} .w3-disabled *,: desativado * {ponteiro-eventos: nenhum}
+.w3-btn.w3-disabled: hover, .w3-btn: desabilitado: hover {box-shadow: nenhum}
+.w3-badge, .w3-tag {background-color: # 000; cor: #fff; display: inline-block; preenchimento-esquerdo: 8px; preenchimento-à direita: 8px; text-align: center} .w3-badge {border-radius: 50%}
+.w3-ul {tipo-estilo-de-lista: nenhum; preenchimento: 0; margem: 0} .w3-ul li {preenchimento: 8px 16px; borda-inferior: 1px sólido #ddd} .w3-ul li: último filho {border-bottom: none}
+.w3-tooltip, .w3-display-container {posição: relativo} .w3-tooltip .w3-text {exibição: nenhuma} .w3-tooltip: hover .w3-text {exibição: inline-block}
+.w3-ripple: active {opacidade: 0.5} .w3-ripple {transição: opacidade 0s}
+.w3-input {preenchimento: 8px; exibição: bloco; borda: nenhum; borda inferior: 1px sólido #ccc; largura: 100%}
+.w3-select {padding: 9px 0; largura: 100%; border: none; border-bottom: 1px solid #ccc}
+.w3-dropdown-click, .w3-dropdown-hover {posição: relativo; display: inline-block; cursor: ponteiro}
+.w3-dropdown-hover: passe o conteúdo de .w3-dropdown {display: block}
+.w3-dropdown-hover: primeiro filho, .w3-dropdown-click: hover {cor de fundo: #ccc; cor: # 000}
+.w3-dropdown-hover: hover> .w3-button: primeiro-filho, .w3-dropdown-click: hover> botão -w3: first-child {cor de fundo: #ccc; cor: # 000}
+.w3-dropdown-content {cursor: automático; cor: # 000; cor de fundo: #fff; display: nenhum; posição: absoluto; min-width: 160px; margem: 0; preenchimento: 0; z-index: 1 }
+.w3-check, .w3-radio {largura: 24px; altura: 24px; posição: relativa; topo: 6px}
+.w3-sidebar {altura: 100%; largura: 200px; cor de fundo: #fff; posição: fixa! importante; z-index: 1; estouro: auto}
+.w3-bar-block .w3-dropdown-hover, .w3-bar-block .w3-dropdown-click {largura: 100%}
+.w3-bar-block .w3-dropdown-pairo .w3-dropdown-content, .w3-bar-block .w3-dropdown-click .w3-dropdown-content {min-width: 100%}
+.w3-bar-block .w3-dropdown-hover .w3-botão, .w3-bar-block .w3-dropdown-clique .w3-button {largura: 100%; alinhamento de texto: esquerdo; preenchimento: 8px 16px}
+.w3-main, # main {transição: margin-left .4s}
+.w3-modal {z-index: 3; display: nenhum; padding-top: 100px; posição: fixa; esquerda: 0; topo: 0; largura: 100%; altura: 100%; estouro: auto; cor de fundo : rgb (0,0,0); cor de fundo: rgba (0,0,0,0.4)}
+.w3-modal-content {margem: auto; cor de fundo: #fff; posição: relativa; preenchimento: 0; esquema: 0; largura: 600px}
+.w3-bar {largura: 100%; estouro: oculto} .w3-center .w3-bar {exibição: bloco de linha; largura: automático}
+.w3-bar .w3-bar-item {preenchimento: 8px 16px; flutuante: esquerdo; largura: automático; limite: nenhum; display: bloco; contorno: 0}
+.w3-bar .w3-dropdown-hover, .w3-bar .w3-dropdownclique em {position: static; float: left}
+.w3-bar .w3-button {espaço em branco: normal}
+.w3-bar-block .w3-bar-item {largura: 100%; display: bloco; preenchimento: 8px 16px; alinhamento de texto: esquerdo; limite: nenhum; espaço em branco: normal; flutuante: nenhum; esquema: 0 }
+.w3-bar-block.w3-center .w3-bar-item {alinhamento de texto: centro} .w3-block {exibição: bloco; largura: 100%}
+.w3-responsivo {display: block; overflow-x: automático}
+.w3-container: after, .w3-container: antes, .w3-panel: depois, .w3-panel: antes, .w3-row: depois, .w3-row: antes, .w3-row-padding: depois .w3-row-padding: antes,
+.w3-cell-row: antes, .w3-cell-row: depois, .w3-clear: depois, .w3-clear: antes, .w3-bar: antes, .w3-bar: depois de {content: "" ; display: table; claro: ambos}
+.w3-col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {flutuante: esquerdo; largura: 100%}
+.w3-col.s1 {largura: 8.33333%}. w3-col.s2 {largura: 16.66666%}. w3-col.s3 {largura: 24.99999%}. w3-col.s4 {largura: 33.33333%}
+.w3-col.s5 {largura: 41.66666%}. w3-col.s6 {largura: 49.99999%}. w3-col.s7 {largura: 58.33333%}. w3-col.s8 {largura: 66.66666%}
+.w3-col.s9 {largura: 74.99999%}. w3-col.s10 {largura: 83.33333%}. w3-col.s11 {largura: 91.66666%}. w3-col.s12 {largura: 99.99999%}
+@media (min-width: 601px) {. w3-col.m1 {largura: 8.33333%}. w3-col.m2 {largura: 16.66666%}. w3-col.m3, .w3-quarter {largura: 24.99999% } .w3-col.m4, .w3-third {largura: 33.33333%}
+.w3-col.m5 {largura: 41.66666%}. w3-col.m6, .w3-half {largura: 49.99999%}. w3-col.m7 {largura: 58.33333%}. w3-col.m8, .w3 -twothird {largura: 66,66666%}
+.w3-col.m9, .w3-threequarter {largura: 74.99999%}. w3-col.m10 {largura: 83.33333%}. w3-col.m11 {largura: 91.66666%}. w3-col.m12 {largura: 99,99999%}}
+@media (largura mínima: 993px) {. w3-col.l1 {largura: 8.33333%}. w3-col.l2 {largura: 16.66666%}. w3-col.l3 {largura: 24.99999%}. w3-col .l4 {largura: 33,33333%}
+.w3-col.l5 {largura: 41.66666%}. w3-col.l6 {largura: 49.99999%}. w3-col.l7 {largura: 58.33333%}. w3-col.l8 {largura: 66.66666%}
+.w3-col.l9 {largura: 74.99999%}. w3-col.l10 {largura: 83.33333%}. w3-col.l11 {largura: 91.66666%}. w3-col.l12 {largura: 99.99999%}}
+.w3-content {max-width: 980px; margem: auto} .w3-rest {overflow: hidden}
+.w3-cell-row {display: table; largura: 100%}. w3-cell {display: table-cell}
+.w3-cell-top {vertical-align: superior} .w3-cell-middle {alinhamento vertical: médio} .w3-cell-bottom {vertical-align: bottom}
+.w3-hide {display: nenhum! importante} .w3-show-block, .w3-show {display: bloco! importante} .w3-show-inline-block {mostrar: inline-block! important}
+@media (largura max: 600px) {. w3-modal-content {margem: 0 10px; largura: auto! importante} .w3-modal {padding-top: 30px}
+.w3-dropdown-hover.w3-mobile .w3-dropdown-content ,.w3-dropdown-click.w3-mobile .w3-dropdown-content {posição: relativo}	
+.w3-hide-small {display: nenhum! importante} .w3-mobile {display: block; largura: 100%! importante} .w3-bar-item.w3-mobile, .w3-dropdown-hover.w3-mobile , .w3-dropdown-click.w3-mobile {text-align: center}
+.w3-dropdown-hover.w3-mobile, .w3-dropdown-hover.w3-mobile .w3-btn, .w3-dropdown-hover.w3-mobile.w3-button, .w3-dropdown-click.w3- mobile, .w3-dropdown-click.w3-mobile .w3-btn, .w3-dropdown-click.w3-mobile .w3-button {largura: 100%}}
+@media (max-width: 768px) {.w3-modal-content {largura: 500px} .w3-modal {padding-top: 50px}}
+@media (min-width: 993px) {. w3-modal-content {largura: 900px} .w3-hide-large {display: nenhum! importante} .w3-sidebar.w3-collapse {exibição: bloco! importante}}
+@media (max-width: 992px) e (min-width: 601px) {. w3-ocultar-médio {exibir: nenhum! importante}}
+@media (max-width: 992px) {.w3-sidebar.w3-collapse {display: nenhum} .w3-main {margin-left: 0! importante; margin-right: 0! important}}
+.w3-top, .w3-bottom {posição: fixa; largura: 100%; z-índice: 1} .w3-top {topo: 0} .w3-bottom {inferior: 0}
+.w3-overlay {posição: fixa; exibição: nenhuma; largura: 100%; altura: 100%; topo: 0; esquerda: 0; direita: 0; inferior: 0; cor de fundo: rgba (0,0,0 , 0,5); z-index: 2}
+.w3-display-topleft {posição: absoluta; esquerda: 0; topo: 0} .w3-display-topright {posição: absoluta; direita: 0; topo: 0}
+.w3-display-bottomleft {posição: absoluta; esquerda: 0; inferior: 0} .w3-display-bottomright {posição: absoluta; direita: 0; inferior: 0}
+.w3-display-middle {posição: absoluto; topo: 50%; esquerdo: 50%; transformar: traduzir (-50%, - 50%); - ms-transformar: traduzir (-50%, - 50%)}
+.w3-display-left {posição: absoluta; topo: 50%; esquerda: 0%; transformar: traduzir (0%, - 50%); - ms-transformação: traduzir (-0%, - 50%)}
+.w3-display-right {posição: absoluta; topo: 50%; direita: 0%; transformar: traduzir (0%, - 50%); - ms-transformação: traduzir (0%, - 50%)}
+.w3-display-topmiddle {posição: absoluto; esquerdo: 50%; topo: 0; transformar: traduzir (-50%, 0%); - ms-transformar: traduzir (-50%, 0%)}
+.w3-display-bottommiddle {posição: absoluto; esquerdo: 50%; inferior: 0; transformar: traduzir (-50%, 0%); - ms-transformar: traduzir (-50%, 0%)}
+.w3-display-container: hover .w3-display-hover {exibição: bloco} .w3-display-container: hover span.w3-display-hover {exibição: inline-block} .w3-display-hover {exibição: Nenhum}
+.w3-display-position {posição: absoluta}
+.w3-circle {border-radius: 50%}
+.w3-round-small {raio-da-fronteira: 2px} .w3-round, .w3-round-medium {raio-raio: 4px} .w3-round-large {raio-raio: 8px} .w3-redondo-xlarge {border-radius: 16px} .w3-round-xxlarge {border-radius: 32px}
+.w3-row-padding, .w3-row-padding> .w3-half, .w3-row-padding> .w3-third, .w3-row-padding> .w3-twothird, .w3-row-padding> .w3-threequarter, .w3-row-padding> .w3-quarter, .w3-row-padding> .w3-col {preenchimento: 0 8px}
+.w3-container, .w3-panel {preenchimento: 0,01em 16px} .w3-panel {margem-superior: 16px; margem-fundo: 16px}
+.w3-code, .w3-codespan {font-family: Consolas, "correio novo"; tamanho da fonte: 16px}
+.w3-code {largura: auto; cor de fundo: #fff; preenchimento: 8px 12px; borda esquerda: 4px sólida # 4CAF50; quebra de texto: quebra-palavra}
+.w3-codespan {cor: carmesim; cor de fundo: # f1f1f1; preenchimento à esquerda: 4px; preenchimento à direita: 4px; tamanho da fonte: 110%}
+.w3-card, .w3-card-2 {box-shadow: 0 2px 5px 0 rgba (0,0,0,0,16), 0 2px 10px 0 rgba (0,0,0,0,12)}
+.w3-card-4, .w3-hover-shadow: pairar {box-shadow: 0 4px 10px 0 rgba (0,0,0,0,2), 0 4px 20px 0 rgba (0,0,0,0,19)}
+.w3-spin {animação: w3-spin 2s infinito linear} @keyframes w3-spin {0% {transformar: girar (0deg)} 100% {transformar: girar (359deg)}}
+.w3-animate-fading {animação: desaparecendo 10s infinito} @keyframes desaparecendo {0% {opacidade: 0} 50% {opacidade: 1} 100% {opacidade: 0}}
+.w3-animate-opacity {animação: opac 0.8s}@keyframes opac {de {opacidade: 0} a {opacidade: 1}}
+.w3-animate-top {position: relative; animação: animatetop 0.4s}@keyframes animatetop {de {top: -300px; opacidade: 0} a {top: 0; opacidade: 1}}
+.w3-animate-left {posição: relativa; animação: animateleft 0.4s}@keyframes animateleft {de {left: -300px; opacidade: 0} para {left: 0; opacidade: 1}}
+.w3-animate-right {posição: relativo; animação: animateright 0,4s}@keyframes animateright {de {right: -300px; opacidade: 0} a {right: 0; opacidade: 1}}
+.w3-animate-bottom {posição: relativo; animação: animatebottom 0.4s}@keyframes animatebottom {de {bottom: -300px; opacidade: 0} para {bottom: 0; opacidade: 1}}
+.w3-animate-zoom {animação: animatezoom 0.6s}@keyframes animatezoom {de {transform: scale (0)} para {transform: scale (1)}}
+.w3-animate-input {transição: largura 0,4s facilidade-in-out} .w3-entrada animada: foco {largura: 100%! importante}
+.w3-opacidade, .w3-hover-opacity: hover {opacidade: 0.60} .w3-opacidade-off, .w3-hover-opacidade-off: hover {opacidade: 1}
+.w3-opacidade-max {opacidade: 0.25} .w3-opacidade-min {opacidade: 0.75}
+.w3-greyscale-max, .w3-tons-de-cinza-máx .w3-hover-greyscale: hover, .w3-hover-tons de cinza: hover {filter: grayscale (100%)}
+.w3-greyscale, .w3-grayscale {filtro: escala de cinza (75%)}. w3-greyscale-min, .w3-grayscale-min {filtro: tons de cinza (50%)}
+.w3-sepia {filtro: sépia (75%)}. w3-sépia-max, .w3-hover-sépia: hover {filtro: sépia (100%)}. w3-sépia-min {filtro: sépia (50% )}
+.w3-tiny {tamanho da fonte: 10px! importante} .w3-small {tamanho da fonte: 12px! importante} .w3-medium {tamanho da fonte: 15px! importante} .w3-large {tamanho da fonte: 18 px! importante}
+.w3-xlarge {tamanho da fonte: 24px! importante} .w3-xxlarge {tamanho da fonte: 36px! importante} .w3-xxxlarge {tamanho da fonte: 48px! importante} .w3-jumbo {tamanho da fonte: 64px! importante}
+.w3-left-align {alinhamento de texto: esquerda! importante} .w3-direita-alinhamento {alinhamento de texto: certo! importante} .w3-justifica {alinhamento de texto: justifique! importante} .w3-center {texto- alinhar: centro! importante}
+.w3-border-0 {border: 0! important} .w3-border {fronteira: 1px solid #ccc! important}
+.w3-border-top {border-top: 1px sólido #ccc! important} .w3-border-bottom {borda inferior: 1px sólida #ccc! important}
+.w3-border-left {border-left: 1px sólido #ccc! important} .w3-border-right {border-right: 1px sólido #ccc! important}
+.w3-topbar {border-top: 6px sólido #ccc! important} .w3-bottombar {border-bottom: 6px sólido #ccc! important}
+.w3-leftbar {border-left: 6px sólido #ccc! important} .w3-rightbar {border-right: 6px sólido #ccc! important}
+.w3-section, .w3-code {margin-top: 16px! importante; margin-bottom: 16px! important}
+.w3-margin {margem: 16px! importante} .w3-margin-top {margin-top: 16px! importante} .w3-margin-bottom {margem-inferior: 16px! important}
+.w3-margin-left {margin-left: 16px! importante} .w3-margin-right {margin-right: 16px! important}
+.w3-padding-small {preenchimento: 4px 8px! importante} .w3-padding {preenchimento: 8px 16px! importante} .w3-padding-large {preenchimento: 12px 24px! importante}
+.w3-padding-16 {padding-top: 16px! important; padding-bottom: 16px! importante} .w3-padding-24 {padding-top: 24px! important; padding-bottom: 24px! important}
+.w3-padding-32 {padding-top: 32px! important; padding-bottom: 32px! importante} .w3-padding-48 {padding-top: 48px! important; padding-bottom: 48px! important}
+.w3-padding-64 {padding-top: 64px! important; padding-bottom: 64px! important}
+.w3-left {flutuação: esquerda! importante} .w3-direita {flutuação: direita! importante}
+Botão .w3: passe o cursor sobre {color: # 000! important; background-color: #ccc! important}
+.w3-transparente, .w3-hover-none: hover {cor de fundo: transparente! important}
+.w3-hover-none: pairar {box-shadow: nenhum! importante}
+/ * Cores * /
+.w3-âmbar, .w3-hover-âmbar: hover {color: # 000! important; cor de fundo: # ffc107! important}
+.w3-aqua, .w3-hover-aqua: passe o cursor sobre {color: # 000! important; background-color: # 00ffff! important}
+.w3-blue, .w3-hover-blue: passe o cursor sobre {color: #fff! important; background-color: # 2196F3! important}
+.w3-light-blue, .w3-hover-light-blue: passe o cursor sobre {color: # 000! important; background-color: # 87CEEB! important}
+.w3-brown, .w3-hover-brown: passe o cursor sobre {color: #fff! important; background-color: # 795548! important}
+.w3-ciano, .w3-hover-cyan: hover {cor: # 000! importante; cor de fundo: # 00bcd4! important}
+.w3-blue-grey, .w3-hover-blue-grey: hover, .w3-blue-grey, .w3-hover-blue-grey: hover {cor: #fff! important; cor de fundo: # 607d8b! importante}
+.w3-green, .w3-hover-green: passe o cursor sobre {color: #fff! important; background-color: # 4CAF50! important}
+.w3-light-green, .w3-hover-light-green: passe o cursor sobre {color: # 000! important; background-color: # 8bc34a! important}
+.w3-indigo, .w3-hover-indigo: passe o cursor sobre {color: #fff! important; background-color: # 3f51b5! important}
+.w3-khaki, .w3-hover-khaki: hover {cor: # 000! importante; cor de fundo: # f0e68c! important}
+.w3-lime, .w3-hover-lime: passe o cursor sobre {color: # 000! important; background-color: # cddc39! important}
+.w3-orange, .w3-hover-orange: hover {cor: # 000! importante; cor de fundo: # ff9800! important}
+.w3-deep-orange, .w3-hover-deep-orange: passe o cursor em {color: #fff! important; background-color: # ff5722! important}
+.w3-pink, .w3-hover-pink: passe o cursor sobre {color: #fff! important; background-color: # e91e63! important}
+.w3-púrpura, .w3-hover-púrpura: hover {color: #fff! important; cor de fundo: # 9c27b0! important}
+.w3-deep-purple, .w3-hover-deep-purple: passe o cursor sobre {color: #fff! important; background-color: # 673ab7! important}
+.w3-red, .w3-hover-red: passe o cursor sobre {color: #fff! important; background-color: # f44336! important}
+.w3-sand, .w3-hover-sand: passe o cursor sobre {color: # 000! important; background-color: # fdf5e6! important}
+.w3-teal, .w3-hover-teal: hover {cor: #fff! important; cor de fundo: # 009688! important}
+.w3-yellow, .w3-hover-yellow: passe o cursor sobre {color: # 000! important; background-color: # ffeb3b! important}
+.w3-branco, .w3-hover-white: passe o cursor sobre {color: # 000! important; background-color: #fff! important}
+.w3-black, .w3-hover-black: passe o cursor sobre {color: #fff! important; background-color: # 000! important}
+.w3-grey, .w3-hover-grey: hover, w3-grey, w3-hover-grey: hover {color: # 000! important; background-color: # 9e9e9e! important}
+.w3-light-grey, .w3-hover-light-grey: hover, w3-light-grey, w3-hover-light-grey: hover {cor: # 000! importante; cor de fundo: # f1f1f1! importante}
+.w3-dark-grey, .w3-hover-dark-grey: hover, .w3-dark-grey, .w3-hover-dark-grey: hover {cor: #fff! importante; cor de fundo: # 616161! importante}
+.w3-pale-red, .w3-hover-pale-red: passe o cursor sobre {color: # 000! important; background-color: #ffdddd! important}
+.w3-pale-green, .w3-hover-pale-green: passe o cursor sobre {color: # 000! important; background-color: #ddffdd! important}
+.w3-amarelo-pálido, .w3-hover-amarelo-pálido: hover {color: # 000! important; background-color: #ffffcc! important}
+.w3-pale-blue, .w3-hover-pale-blue: passe o cursor sobre {color: # 000! important; background-color: #ddffff! important}
+.w3-texto-âmbar, .w3-hover-texto-âmbar: hover {color: # ffc107! important}
+.w3-text-aqua, .w3-hover-text-aqua: hover {cor: # 00ffff! important}
+.w3-text-blue, .w3-hover-text-blue: passe o cursor sobre {color: # 2196F3! important}
+.w3-texto-luz-azul, .w3-hover-texto-luz-azul: hover {color: # 87CEEB! important}
+.w3-text-brown, .w3-hover-text-brown: hover {color: # 795548! important}
+.w3-text-cyan, .w3-hover-text-ciano: hover {color: # 00bcd4! important}
+.w3-text-blue-grey, .w3-hover-text-blue-grey: hover, .w3-text-blue-grey, .w3-hover-text-blue-grey: hover {color: # 607d8b! important }
+.w3-text-green, .w3-hover-text-green: hover {cor: # 4CAF50! important}
+.w3-texto-luz-verde, .w3-hover-texto-luz-verde: hover {color: # 8bc34a! important}
+.w3-text-indigo, .w3-hover-text-indigo: hover {color: # 3f51b5! important}
+.w3-text-khaki, .w3-hover-text-cáqui: hover {color: # b4aa50! important}
+.w3-text-lime, .w3-hover-text-lime: hover {cor: # cddc39! important}
+.w3-texto-laranja, .w3-hover-texto-laranja: hover {color: # ff9800! important}
+.w3-text-deep-orange, .w3-hover-text-deep-orange: hover {cor: # ff5722! important}
+.w3-text-pink, .w3-hover-text-pink: hover {cor: # e91e63! important}
+.w3-text-purple, .w3-hover-text-purple: hover {cor: # 9c27b0! important}
+.w3-text-deep-purple, .w3-hover-text-deep-purple: hover {cor: # 673ab7! important}
+.w3-text-red, .w3-hover-text-vermelho: hover {color: # f44336! important}
+.w3-text-sand, .w3-hover-text-sand: hover {color: # fdf5e6! important}
+.w3-text-teal, .w3-hover-text-teal: hover {color: # 009688! important}
+.w3-texto-amarelo, .w3-hover-texto-amarelo: hover {color: # d2be0e! important}
+.w3-text-white, .w3-hover-text-branco: hover {color: #fff! important}
+.w3-texto-preto, .w3-hover-texto-preto: hover {color: # 000! important}
+.w3-texto-cinzento, .w3-hover-texto-cinzento: hover, .w3-texto-cinzento, .w3-hover-texto-cinzento: hover {color: # 757575! important}
+.w3-text-light-grey, .w3-hover-text-light-grey: hover, .w3-text-light-grey, .w3-hover-text-light-grey: hover {cor: # f1f1f1! important }
+.w3-text-dark-grey, .w3-hover-text-dark-grey: hover, .w3-text-dark-grey, .w3-hover-text-dark-grey: hover {color: # 3a3a3a! important }
+.w3-fronteira-âmbar, .w3-hover-fronteira-âmbar: hover {border-color: # ffc107! important}
+.w3-border-aqua, .w3-hover-border-aqua: pairar {border-color: # 00ffff! important}
+.w3-border-blue, .w3-hover-border-blue: passe o cursor sobre {border-color: # 2196F3! important}
+.w3-border-light-blue, .w3-hover-border-light-blue: passe o cursor sobre {border-color: # 87CEEB! important}
+.w3-border-brown, .w3-hover-border-brown: passe o cursor sobre {border-color: # 795548! important}
+.w3-border-cyan, .w3-hover-border-cyan: pairar {border-color: # 00bcd4! important}
+.w3-border-blue-grey, .w3-hover-border-blue-grey: pairar, .w3-border-blue-grey, .w3-hover-border-blue-grey: hover {cor da borda: # 607d8b !importante}
+.w3-border-green, .w3-hover-border-green: passe o cursor sobre {border-color: # 4CAF50! important}
+.w3-fronteira-luz-verde, .w3-hover-fronteira-luz-verde: hover {border-color: # 8bc34a! important}
+.w3-border-indigo, .w3-hover-border-indigo: hover {border-color: # 3f51b5! important}
+.w3-border-khaki, .w3-hover-border-khaki: hover {cor da borda: # f0e68c! important}
+.w3-border-lime, .w3-hover-border-lime: pairar {border-color: # cddc39! important}
+.w3-border-orange, .w3-hover-border-orange: passe o cursor sobre {border-color: # ff9800! important}
+.w3-border-deep-orange, .w3-hover-border-deep-orange: hover {border-color: # ff5722! important}
+.w3-border-pink, .w3-hover-border-pink: passe o cursor sobre {border-color: # e91e63! important}
+.w3-fronteira-púrpura, .w3-hover-fronteira-púrpura: hover {border-color: # 9c27b0! important}
+.w3-border-deep-purple, .w3-hover-border-deep-purple: pairar {border-color: # 673ab7! important}
+.w3-border-red, .w3-hover-border-vermelho: hover {border-color: # f44336! important}
+.w3-border-sand, .w3-hover-border-sand: pairar {border-color: # fdf5e6! important}
+.w3-border-teal, .w3-hover-border-teal: hover {border-color: # 009688! important}
+.w3-border-yellow, .w3-hover-border-yellow: passe o cursor sobre {border-color: # ffeb3b! important}
+.w3-border-white, .w3-hover-border-white: passe o cursor sobre {border-color: #fff! important}
+.w3-border-black, .w3-hover-border-black: passe o cursor {border-color: # 000! important}
+.w3-border-grey, .w3-hover-border-grey: hover, w3-border-grey, w3-hover-border-grey: hover {border-color: # 9e9e9e! important}
+.w3-border-light-grey, .w3-hover-border-light-gray: passar o cursor, .w3-border-light-grey, .w3-hover-border-light-grey: hover {border-color: # f1f1f1 !importante}
+.w3-border-dark-grey, .w3-hover-border-dark-grey: pairar, .w3-border-dark-grey, .w3-hover-border-dark-grey: hover {border-color: # 616161 !importante}
+.w3-border-pale-red, .w3-hover-border-pale-red: passe o cursor {border-color: # ffe7e7! importante} .w3-border-pale-green, .w3-hover-border-pale-green : hover {border-color: # e7ffe7! important}
+.w3-border-pale-yellow, .w3-hover-border-pale-yellow: pairar {border-color: #ffffcc! important} .w3-border-pale-blue, .w3-hover-border-pale-blue : hover {border-color: # e7ffff! important}
